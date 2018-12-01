@@ -19,13 +19,13 @@
 <body>
 
   <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.6";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+    <script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.6";
+fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
 <header>
   <div id="header_in" class="container">
@@ -43,7 +43,7 @@
           <ul class="sp_navi_li">
             <li><a href="index.html">TOPページ</a></li>
             <li><a href="news.html">ニュースリリース</a></li>
-            <li><a href="company/company.html">会社概要</a></li>
+            <li><a href="company.html">会社概要</a></li>
           </ul>
         </div>
         <!-- sp_navi -->
@@ -108,7 +108,7 @@
           <ul>
             <li><a href="index.html">TOPページ</a></li>
             <li><a href="news.html">ニュースリリース</a></li>
-            <li><a href="company/company.html">会社概要</a></li>
+            <li><a href="company.html">会社概要</a></li>
           </ul>
         </div>
 
@@ -169,11 +169,11 @@
 
       $("#sp_navi_btn").click(function () {
         $(this).next().slideToggle();
-      });
-
     });
 
   });
+
+});
 </script>
 
 
